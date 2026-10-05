@@ -1,0 +1,39 @@
+# ==============================================================================
+# Git Ignore - MSc Engineering Portfolio
+# ==============================================================================
+
+# OS generated files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Microsoft Office & Project temporary / lock files
+~$*
+*.tmp
+*.bak
+
+# Power BI Desktop temporary files
+*.pbix.temp
+
+# Python / Scripts temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+.env
+venv/
+env/
+
+# Editor / IDE settings
+.vscode/
+.idea/
+
+# Large Datasets Note:
+# 'male_players.csv' is ~96MB. If GitHub raises a file-size warning or error
+# on push without Git LFS, uncomment the line below:
+# 01_Business_Intelligence_FC24/data/male_players.csv
